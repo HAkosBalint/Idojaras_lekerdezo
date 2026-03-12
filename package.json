@@ -1,0 +1,25 @@
+{
+  "name": "gyakorlashtml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "dev:tsc": "tsc script.ts --watch",
+  "dev:serve": "lite-server",
+  "start": "concurrently \"npm run dev:tsc\" \"npm run dev:serve\""
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "concurrently": "^9.2.1",
+    "eslint": "^10.0.3",
+    "lite-server": "^2.6.1",
+    "nodemon": "^3.1.14",
+    "prettier": "3.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
